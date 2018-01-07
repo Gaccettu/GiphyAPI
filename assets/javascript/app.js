@@ -24,7 +24,7 @@ renderButtons();
 $(document.body).on("click", ".animalClass", function(){
     var anim = $(this).attr("data-name");
 
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
     anim + "&api_key=QOqfx958RxX3hJwWED9g26sgzh1zDbdU&limit=10&rating=pg";
 
     $.ajax({
